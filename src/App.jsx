@@ -63,7 +63,7 @@ function Hero() {
           <motion.div {...up(0.65)} className="mt-9 flex flex-col gap-4 sm:flex-row"><Btn href={BOOK} solid>Book an Appointment</Btn><Btn href="#services" ext={false}>Explore Services</Btn></motion.div>
         </div>
         <motion.div initial={{ opacity: 0, scale: 1.04 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1.4, delay: 0.3, ease }} className="relative mx-auto w-full max-w-md lg:max-w-none">
-          <div className="absolute -inset-3 translate-x-3 translate-y-3 rounded-t-[999px] border border-gold/40" aria-hidden="true" />
+          <div className="absolute -inset-2 rounded-t-[999px] border border-gold/40" aria-hidden="true" />
           <img src={store} alt="The Beauty Vault Salon & Lounge entrance lit with golden lights at night" width="938" height="620" className="relative aspect-[4/5] w-full rounded-t-[999px] object-cover object-center" />
         </motion.div>
       </div>
